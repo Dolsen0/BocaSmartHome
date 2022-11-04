@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <>
       <NavbarBSH/>
+      <p>Coming Soon...</p>
       </>
     </div>
   );
