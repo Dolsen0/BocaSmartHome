@@ -1,5 +1,6 @@
 import NavbarBSH from './components/Navbar';
 import './App.css';
+import Video from './pages/Video';
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <>
       <NavbarBSH/>
       <p>Coming Soon...</p>
+      <Video/>
+      
       </>
     </div>
   );

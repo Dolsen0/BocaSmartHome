@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  background-color: aliceblue;
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -10,6 +12,12 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
+#videoReview{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 33vw;  
+}
