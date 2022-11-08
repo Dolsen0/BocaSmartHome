@@ -35,3 +35,9 @@
   width: 33vw;  
 }
 
+.footer{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+}
