@@ -19,7 +19,7 @@ export default function Video(){
             <h4>
                 Image
             </h4>
-            <img src='../images/hometheater.jpg' alt="Cinema Projector" />
+            <img src='/../i' alt="Cinema Projector" />
         </div>
         </div>
         </>
