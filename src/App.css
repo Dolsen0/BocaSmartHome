@@ -1,46 +1,55 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center
+}
+
+.hero {
+  background-color: #f7f7f7;
+  padding: 100px;
   text-align: center;
-  background-color: aliceblue;
 }
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.sections{
-  display: flex;
-  flex-direction: row;
+.hero p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 30px;
 }
 
-#videoReview{
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin: 10px;
-  width: 33vw;  
+.cta-button {
+  display: inline-block;
+  background-color: #fd8053;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: background-color 0.2s;
 }
 
-#image{
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin: 10px;
-  width: 33vw;  
-}
-
-li{
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding: auto;
-  list-style-type: none;
-  align-items: center;
-  justify-content: center;
+.cta-button:hover {
+  background-color: #ff6b3b;
 }
